@@ -1,0 +1,25 @@
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f6f7fb;color:#222}
+.navbar{background:#b5121b;color:white;padding:15px 6%;display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
+.brand{font-size:22px;font-weight:bold}
+.navlinks{display:flex;gap:15px;flex-wrap:wrap}.navlinks a{color:#fff;text-decoration:none;font-weight:bold}
+.container{width:92%;max-width:1100px;margin:30px auto;min-height:70vh}
+.hero{background:linear-gradient(135deg,#b5121b,#e33b45);color:#fff;padding:55px 35px;border-radius:18px;text-align:center}
+.hero h1{font-size:42px;margin:0 0 12px}.hero p{font-size:18px}
+.btn{display:inline-block;padding:11px 18px;border-radius:7px;text-decoration:none;border:0;cursor:pointer;font-weight:bold;background:#b5121b;color:#fff}
+.btn.secondary{background:#555}.btn.green{background:#17823b}.btn.danger{background:#c62828}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:18px;margin:25px 0}
+.card{background:#fff;padding:25px;border-radius:12px;box-shadow:0 3px 12px #0001}
+.card h2{margin-top:0;color:#b5121b}
+.stat{font-size:34px;font-weight:bold}
+.form-box,.table-box{background:#fff;padding:25px;border-radius:12px;box-shadow:0 3px 12px #0001;margin-bottom:25px}
+.form-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:15px}
+label{font-weight:bold;display:block;margin-bottom:6px}
+input,select,textarea{width:100%;padding:11px;border:1px solid #ccc;border-radius:6px;margin-bottom:12px}
+textarea{min-height:90px}.full{grid-column:1/-1}
+table{width:100%;border-collapse:collapse}th,td{padding:12px;border-bottom:1px solid #ddd;text-align:left}th{background:#b5121b;color:#fff}
+.alert{padding:12px;border-radius:6px;margin:12px 0;background:#fff0f0;color:#a00}.success{background:#effaf2;color:#176b31}
+.badge{padding:5px 9px;border-radius:15px;background:#eee;font-size:12px;font-weight:bold}
+.login{max-width:430px;margin:50px auto}
+footer{text-align:center;background:#222;color:#fff;padding:18px;margin-top:30px}
+@media(max-width:700px){.hero h1{font-size:30px}table{font-size:13px}.navbar{padding:14px}}
